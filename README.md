@@ -1,6 +1,7 @@
 SQLiteDB 
 ========
 
+
 **Note:** I am no longer updating/developing this framework since I personally do not use it any longer. I have switched over to using [Realm](https://realm.io/) for most of my own development work.
 
 If you need an SQLite library for your development, you might consider using [SQLite.swift](https://github.com/stephencelis/SQLite.swift) instead of SQLiteDB. (There are other Swift SQLite libraries, but most of them don't appear to be updated for Swift 2.0 at the moment.)
@@ -22,6 +23,7 @@ Adding to Your Project
 * If you didn't have a bridging header file, make sure that you modify your project settings to point to the new bridging header file. This will be under  **Build Settings** for your target and will be named **Objective-C Bridging Header**.
 
 * Add the SQLite library (libsqlite3.0.dylib) to your project under **Build Phases** - **Link Binary With Libraries** section.
+* After the swift 2.0 update you have to use another SQLite library(libsqlite3.tbd)
 
 That's it. You're set!
 
